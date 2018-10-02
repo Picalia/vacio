@@ -9,6 +9,7 @@ import { HistoriaPage } from '../historia/historia';
 export class HomePage {
 
   historia = HistoriaPage;
+  CS = CSPage;
 
   constructor(public navCtrl: NavController) {
 
@@ -16,6 +17,10 @@ export class HomePage {
 
   clickHistoria(){
     this.navCtrl.push(this.historia);
+  }
+
+  clickCS(){
+    this.navCtrl.push(this.CS); 
   }
 
 }
