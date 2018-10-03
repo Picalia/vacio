@@ -14,8 +14,8 @@ export class HomePage {
 
   historia = HistoriaPage;
   CS = CsPage;
-  dibujo = DibujoPage,
-  com = ComPage
+  dibujo = DibujoPage;
+  com = ComPage;
 
   constructor(public navCtrl: NavController) {
 
@@ -30,9 +30,10 @@ export class HomePage {
   }
 
   clickdibujo(){
-    this.navCtrl.push(this.dibujo)
+    this.navCtrl.push(this.dibujo);
   }
 
   clickcom(){
-    this.navCtrl.push(this.com)
+    this.navCtrl.push(this.com);
+  }
 }
