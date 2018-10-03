@@ -13,7 +13,7 @@ export class HomePage {
 
   historia = HistoriaPage;
   CS = CsPage;
-  dib = DibujoPage
+  dibujo = DibujoPage
 
   constructor(public navCtrl: NavController) {
 
@@ -27,7 +27,7 @@ export class HomePage {
     this.navCtrl.push(this.CS); 
   }
 
-  clickdib(){
+  clickdibujo(){
     this.navCtrl.push(this.dibujo)
   }
 
