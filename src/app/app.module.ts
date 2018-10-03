@@ -10,6 +10,7 @@ import { HistoriaPage } from '../pages/historia/historia';
 import { CsPage } from '../pages/cs/cs';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { ComPage } from '../pages/com/com';
+import { PappsPage } from '../pages/papps/papps';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ComPage } from '../pages/com/com';
     HistoriaPage,
     CsPage,
     DibujoPage,
-    ComPage
+    ComPage,
+    PappsPage
 
     
   ],
@@ -34,7 +36,8 @@ import { ComPage } from '../pages/com/com';
     HistoriaPage,
     CsPage,
     DibujoPage,
-    ComPage
+    ComPage,
+    PappsPage
   ],
   providers: [
     StatusBar,

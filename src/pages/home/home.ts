@@ -4,6 +4,7 @@ import { HistoriaPage } from '../historia/historia';
 import { CsPage } from '../cs/cs';
 import { DibujoPage } from '../dibujo/dibujo';
 import { ComPage } from '../com/com';
+import { PappsPage } from '../papps/papps';
 
 
 @Component({
@@ -16,6 +17,7 @@ export class HomePage {
   CS = CsPage;
   dibujo = DibujoPage;
   com = ComPage;
+  PAPPS = PappsPage;
 
   constructor(public navCtrl: NavController) {
 
@@ -36,4 +38,9 @@ export class HomePage {
   clickcom(){
     this.navCtrl.push(this.com);
   }
+
+  clickPAPPS(){
+    this.navCtrl.push(this.PAPPS);
+  }
+
 }
