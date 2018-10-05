@@ -12,6 +12,7 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
 import { ComPage } from '../pages/com/com';
 import { PappsPage } from '../pages/papps/papps';
 import { RoboticaPage } from '../pages/robotica/robotica';
+import { MiPage } from '../pages/mi/mi';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { RoboticaPage } from '../pages/robotica/robotica';
     DibujoPage,
     ComPage,
     PappsPage,
-    RoboticaPage
+    RoboticaPage,
+    MiPage
 
     
   ],
@@ -40,7 +42,8 @@ import { RoboticaPage } from '../pages/robotica/robotica';
     DibujoPage,
     ComPage,
     PappsPage,
-    RoboticaPage
+    RoboticaPage,
+    MiPage
   ],
   providers: [
     StatusBar,
