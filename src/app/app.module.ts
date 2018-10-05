@@ -14,6 +14,7 @@ import { PappsPage } from '../pages/papps/papps';
 import { RoboticaPage } from '../pages/robotica/robotica';
 import { MiPage } from '../pages/mi/mi';
 import { PyEPage } from '../pages/py-e/py-e';
+import { CalculoPage } from '../pages/calculo/calculo';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { PyEPage } from '../pages/py-e/py-e';
     PappsPage,
     RoboticaPage,
     MiPage,
-    PyEPage
+    PyEPage,
+    CalculoPage
 
     
   ],
@@ -46,7 +48,8 @@ import { PyEPage } from '../pages/py-e/py-e';
     PappsPage,
     RoboticaPage,
     MiPage,
-    PyEPage
+    PyEPage,
+    CalculoPage
   ],
   providers: [
     StatusBar,
