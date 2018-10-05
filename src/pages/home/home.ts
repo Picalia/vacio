@@ -19,7 +19,7 @@ export class HomePage {
   dibujo = DibujoPage;
   com = ComPage;
   PAPPS = PappsPage;
-  Robotica = RoboticaPage
+  Robotica = RoboticaPage;
 
   constructor(public navCtrl: NavController) {
 
